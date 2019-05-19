@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 ## The function makeCacheMatrix gets a matrix as its input, then creates a special
-## matrix object that can then cache its inverse
+## matrix object that can then cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 ## The function cacheSolve gets the output of previous function makeCacheMatrix
 ## and checks if the inverse has been claculated or not. If the inverse is calculated
-## then it retrieves the inverse from cache
+## then it retrieves the inverse from cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
